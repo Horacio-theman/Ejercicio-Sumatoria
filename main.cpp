@@ -1,10 +1,6 @@
 #include <iostream> // Prebuild libraries
 
-consteval int get_value(){
-    return 3;
-}
-
-int main(){
+int main(){ //Function block of code that does things // Main is entry point
    std::cout << "Hello World!" << std::endl;
    return 0;
 }
